@@ -1,5 +1,5 @@
 # The Odin Project - Sign Up Form
-A sign up form mockup created for The Odin Project.
+A sign up form mockup created for [The Odin Project](theodinproject.com).
 
 ### What are the goals of this project?
 - To show an understanding of form creation and validation
