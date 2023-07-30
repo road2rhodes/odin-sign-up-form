@@ -5,6 +5,10 @@ li {
   list-style-type: none;
 }
 
+.signUp {
+  width: clamp(462px, 100%, 500px);
+}
+
 /* .demos, .background, .validation */
 
 .listItem {
