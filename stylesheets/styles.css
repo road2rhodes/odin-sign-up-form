@@ -24,4 +24,8 @@ li {
   flex-direction: column;
 }
 
+.signUp-btn {
+  text-transform: uppercase;
+}
+
 /* Modifiers */
