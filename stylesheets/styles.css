@@ -1,3 +1,17 @@
+
+/* Blocks */
+
 li {
   list-style-type: none;
 }
+
+.signUp-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Elements */
+
+
+
+/* Modifiers */
