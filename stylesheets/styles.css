@@ -25,7 +25,9 @@ li {
 }
 
 .signUp-btn {
+  display: block;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 /* Modifiers */
