@@ -5,13 +5,20 @@ li {
   list-style-type: none;
 }
 
-.signUp-container {
+/* .demos, .background, .validation */
+
+.listItem {
   display: flex;
-  flex-direction: column;
 }
 
 /* Elements */
 
+.signUp-listItem {
+  display: flex;
+}
 
+.listItems__containers {
+  flex-direction: column;
+}
 
 /* Modifiers */
