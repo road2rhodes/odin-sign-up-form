@@ -9,7 +9,9 @@ li {
   width: clamp(462px, 100%, 500px);
 }
 
-/* .demos, .background, .validation */
+.demos, .background, .validation {
+  margin: 1rem 0;
+}
 
 .listItem {
   display: flex;
