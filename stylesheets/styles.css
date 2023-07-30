@@ -17,7 +17,8 @@ li {
   display: flex;
 }
 
-.listItems__containers {
+.listItems-containers {
+  display: flex;
   flex-direction: column;
 }
 
