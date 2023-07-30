@@ -13,10 +13,6 @@ li {
 
 /* Elements */
 
-.signUp-listItem {
-  display: flex;
-}
-
 .listItems-containers {
   display: flex;
   flex-direction: column;
