@@ -75,11 +75,11 @@ main {
   padding-left: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 10px 10px 20 black;
+  box-shadow: 0px -10px 80px -50px rgb(24, 25, 85), 0px 10px 80px -50px rgb(21, 5, 110);
 }
 
 .preface-text {
-  color: #eeeeee;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1.40rem;
 }
