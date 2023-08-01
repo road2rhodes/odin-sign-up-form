@@ -5,6 +5,21 @@ li {
   list-style-type: none;
 }
 
+main {
+  display: flex;
+}
+
+.sideBar {
+  width: 100px;
+  height: 100vh;
+}
+
+.sideImage {
+  width: 100%;
+  object-fit: contain;
+
+}
+
 .signUp {
   width: clamp(462px, 100%, 500px);
 }
@@ -16,6 +31,7 @@ li {
 .listItem {
   display: flex;
 }
+
 
 /* Elements */
 
