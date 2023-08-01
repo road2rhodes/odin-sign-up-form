@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bgColor: linear-gradient(#fa7272, #9198e5, #4d58d1);
+}
+
 /* Blocks */
 
 :root {
@@ -15,7 +19,7 @@
 body {
   height: 100vh;
   font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f99dfc
+  background: var(--bgColor);
 }
 
 li {
