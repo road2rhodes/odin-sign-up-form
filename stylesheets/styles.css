@@ -10,7 +10,7 @@ main {
 }
 
 .sideBar {
-  width: clamp(300px, 50vh, 750px);
+  width: clamp(300px, 45vh, 750px);
   height: 100vh;
 }
 
