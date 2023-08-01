@@ -7,16 +7,18 @@ li {
 
 main {
   display: flex;
-  height: 100px
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 .sideBar {
-  width: clamp(300px, 45vh, 750px);
-  height: 100vh;
+  width: clamp(300px, 35vh, 750px);
+  height: 100%;
 }
 
 .sideImage {
-  width: 100%;
+  width: min(100%, 500px);
   height: 100%;
   object-fit: cover;
 
