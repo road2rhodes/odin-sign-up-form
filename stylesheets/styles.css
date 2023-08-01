@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Inter:wght@100;300;600;700;900&family=Space+Mono:wght@400;700&display=swap');
 
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Blocks */
 
 :root {
@@ -22,7 +28,7 @@ main {
 }
 
 .sideBar {
-  width: clamp(200px, 100%, 603px);
+  width: clamp(200px, 30vw, 603px);
   height: 100%;
 }
 
@@ -37,9 +43,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: clamp(462px, 100%, 100vh);
+  width: clamp(462px, 100%, 70vw);
   height: 100%;
-  padding-left: 5rem;
+
   gap: 1rem;
 }
 
@@ -61,8 +67,9 @@ main {
 
 .signUp-BG {
   background-color: white;
-  width: fit-content;
+  width: 100%;
   height: fit-content;
+  padding: 1rem;
 }
 
 .signUp-btn {
