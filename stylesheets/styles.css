@@ -10,13 +10,14 @@ main {
 }
 
 .sideBar {
-  width: 100px;
+  width: clamp(300px, 50vh, 750px);
   height: 100vh;
 }
 
 .sideImage {
   width: 100%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 
 }
 
