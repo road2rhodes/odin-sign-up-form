@@ -65,6 +65,12 @@ main {
   display: flex;
 }
 
+.preface {
+  background-color: rgba(14, 24, 134, 0.3);
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
 
 /* Elements */
 
@@ -89,7 +95,6 @@ main {
   color: #ffffff;
   font-weight: 600;
   font-size: 1.40rem;
-  margin-bottom: 20px;
 }
 
 .signUp-btn {
@@ -116,4 +121,28 @@ main {
   font-weight: 600;
 }
 
-/* Modifiers */
+/* Media Queries */
+
+@media (min-width: 1126px) and (max-width: 1384px) {
+  .preface-text {
+    font-size: 1.20rem;
+  }
+  .sideBar {
+ 
+  }
+  .signUp {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 1125px) {
+  .preface-text {
+    font-size: 1.20rem;
+  }
+  .sideBar {
+    width: 10vw;
+  }
+  .signUp {
+    width: 90vw;
+  }
+}
