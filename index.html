@@ -13,10 +13,11 @@
       <img src="./img/img3.jpg" alt="MusicMakers sidebar image" class="sideImage" />
     </aside>
     <div class="signUp">
-      <div class="signUp-BG">
-        <header class="preface"><p>Connect with fellow MusicMakers, sell and promote your work, check out new music, and make use of our cutting-edge collaboration tools. MusicMakers makes all this possible.</p>
+      <header class="preface"><p>Connect with fellow MusicMakers, sell and promote your work, check out new music, and make use of our cutting-edge collaboration tools. MusicMakers makes all this possible.</p>
         </header>
-        <form class="form" action="" method="post">
+      <div class="signUp-BG">
+
+        <form class="form" id="sign-up-form" action="" method="post">
         
            <ul class="demos">
             <li class="listItem">
@@ -96,9 +97,10 @@
               <label for="TOS">I acknowledge that I have read and agree to the <a href="#">Terms of Use</a>, <a href="#">Privacy Policy</a>, and <a href="#">Content Policy</a></label>
             </li>
            </ul>
-          <button type="submit" class="signUp-btn">sign up</button>
         </form>
       </div>
+      <button type="submit" class="signUp-btn" form="sign-up-form">sign up</button>
+
     </div>
   </main>
 </body>
