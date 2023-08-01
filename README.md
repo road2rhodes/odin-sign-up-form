@@ -9,3 +9,6 @@ A sign up form mockup created for [The Odin Project](http://theodinproject.com).
 - To use BEM for organzing the CSS
 - To try and make the page responsive
 - To rely on HTML and Vanilla CSS for the project
+
+### References images
+[Sidebar image](https://unsplash.com/photos/OQlPahHa7Bc)
