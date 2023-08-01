@@ -59,4 +59,8 @@ main {
   margin: 0 auto;
 }
 
+.demos-labels {
+  font-weight: 600;
+}
+
 /* Modifiers */
