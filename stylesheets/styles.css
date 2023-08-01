@@ -7,7 +7,7 @@
 }
 
 :root {
-  --bgColor: linear-gradient(#f8a8a8,#f06a6a, #9198e5, #363d92);
+  --bgColor: linear-gradient(#fcbc9c,#f82eb5, #9198e5, #3e469e);
 }
 
 /* Blocks */
@@ -76,7 +76,7 @@ main {
   padding-left: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 0px -40px 100px -100px #5e2c2c, 0px 40px 100px -50px rgb(54, 32, 180);
+  box-shadow: 0px -40px 100px -100px #5e2c2c, 0px 40px 100px -50px #3620b4;
 }
 
 .preface-text {
