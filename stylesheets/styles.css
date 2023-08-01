@@ -7,7 +7,7 @@
 }
 
 :root {
-  --bgColor: linear-gradient(#fa7272, #9198e5, #4d58d1);
+  --bgColor: linear-gradient(#f06a6a, #9198e5, #4d58d1);
 }
 
 /* Blocks */
@@ -69,7 +69,7 @@ main {
 }
 
 .signUp-BG {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 100%;
   height: fit-content;
   padding-left: 3rem;
@@ -79,8 +79,9 @@ main {
 }
 
 .preface-text {
+  color: #eeeeee;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.40rem;
 }
 
 .signUp-btn {
