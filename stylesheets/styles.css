@@ -108,6 +108,10 @@ main {
   width: clamp(100px, 100%, 250px);
 }
 
+.demos-inputs:invalid {
+  border: 1px solid red;
+}
+
 .demos-labels {
   font-weight: 600;
 }
