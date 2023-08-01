@@ -76,7 +76,7 @@ main {
   padding-left: 3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  box-shadow: 0px 0px 100px -50px #5e2c2c, 0px 0px 100px -50px rgb(21, 5, 110);
+  box-shadow: 0px -40px 100px -100px #5e2c2c, 0px 40px 100px -50px rgb(54, 32, 180);
 }
 
 .preface-text {
