@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fdfdfd
+  background-color: #f99dfc
 }
 
 li {
@@ -22,7 +22,7 @@ main {
 }
 
 .sideBar {
-  width: clamp(200px, 100%, 683px);
+  width: clamp(200px, 100%, 603px);
   height: 100%;
 }
 
@@ -56,6 +56,12 @@ main {
 .listItems-containers {
   display: flex;
   flex-direction: column;
+}
+
+.signUp-BG {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
 }
 
 .signUp-btn {
