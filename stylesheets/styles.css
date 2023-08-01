@@ -28,7 +28,7 @@ main {
 }
 
 .sideBar {
-  width: clamp(200px, 30vw, 603px);
+  width: clamp(200px, 25vw, 603px);
   height: 100%;
 }
 
@@ -43,9 +43,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: clamp(462px, 100%, 70vw);
+  width: clamp(462px, 100%, 75vw);
   height: 100%;
-
   gap: 1rem;
 }
 
@@ -69,7 +68,15 @@ main {
   background-color: white;
   width: 100%;
   height: fit-content;
-  padding: 1rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 10px 20 black;
+}
+
+.preface-text {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .signUp-btn {
